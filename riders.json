@@ -1,0 +1,23 @@
+{
+  "users": {},
+  "policies": [
+    {
+      "id": "policy100",
+      "Policy_No": "23246214",
+      "Status": "LINK_SENT",
+      "Risk_Commencement_Date": "16-02-2021",
+      "Policy_Sum_Assured_(Base)": "7000000",
+      "Policy_Product_Name": "HDFC Life Click 2 Protect Plus",
+      "Policy_Term_(Base)": "27",
+      "Policy_Product_Code_(Base)": "CP7",
+      "Policy_Premium_Paying_Term_(Base)": "27",
+      "Policy_Premium_Every_Installment": "14902",
+      "Policy_Billing_Frequency": "01",
+      "Policy_Premium_Every_Installment_Without_Tax": "12628 (Without Tax)",
+      "Paid_To_Date": "16-02-2026",
+      "Email_Id": "srazackmsc@gmail.com",
+      "Mobile_Nos": "4565466666",
+      "Shortened_Url": ""
+    }
+  ]
+}

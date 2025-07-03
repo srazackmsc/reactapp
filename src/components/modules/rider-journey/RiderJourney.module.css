@@ -1,0 +1,48 @@
+.username {
+  margin: 0px 0px 0px 5px;
+  font-weight: bold;
+  color: #2d3e50;
+  font-size: 15px;
+}
+.premium{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+    line-height: 1.22;
+    font-weight: 400;
+    color: #2d3e50;
+    letter-spacing: -0.2px;
+}
+.welcomeText {
+    font-weight: bold;
+    color: #b51e1c;
+}
+.redText {
+    color: #b51e1c;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+}
+.policyCard{
+    color: #48596a;
+    font-size: 13px;
+    line-height: 2;
+    margin: 0;
+    font-weight: 400;
+}
+.productName {
+    font-weight: 600;
+    font-size: 15px;
+    color: #005e9e;
+    letter-spacing: 0.2px;
+}
+.policyHeading{font-size: 16px;}
+.riderName {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #005e9e;
+    margin-top: 5px;
+    font-size: 17px;
+    margin-left: 5px;
+}
