@@ -87,6 +87,7 @@ const ClickTooltip = ({ children, content }) => {
 
   return (
     <>
+    {visible && <div className='flex items-center justify-center absolute backdrop-brightness-75' style={{top:'0',left:'0',width:window.innerWidth,height:document.documentElement.scrollHeight}}></div>}
       <span ref={triggerRef} onClick={toggleTooltip} className="inline-block cursor-pointer">
         {children}
       </span>
@@ -99,10 +100,10 @@ const ClickTooltip = ({ children, content }) => {
         >
           <div className='bg-gray-50 p-2'>{content}</div>
           <div style={{zIndex:'-1'}}
-            className={`absolute z-0 w-3 h-2 bg-sky-200 rotate-45 ${
+            className={`absolute z-0 w-4 h-4 bg-white border-b-gray-200 rotate-45 ${
               position.pos === 'top'
-                ? 'bottom-[-4px] left-1/2 -translate-x-1/2'
-                : 'top-[-4px] left-1/2 -translate-x-1/2'
+                ? 'bottom-[-5px] left-1/2 -translate-x-1/2'
+                : 'top-[-5px] left-1/2 -translate-x-1/2'
             }`}
           ></div>
         </div>

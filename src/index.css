@@ -724,3 +724,10 @@
 .popup-close {
   animation: slideDown 0.3s ease forwards;
 }
+
+.policyCard{
+  background: linear-gradient(260deg, #0d6efd85, #0d6efd26);
+    box-shadow: 0px 0px 2px 1px #0d6efd8f;
+    border: 1px solid #0d6efd8c;
+
+}

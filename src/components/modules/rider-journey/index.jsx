@@ -82,6 +82,11 @@ const RiderJourney = () => {
                   </p>
                 </div>
               </div>
+              <label class="relative inline-flex items-center cursor-pointer" style={{height: '30px'}}>
+  <input type="checkbox" class="sr-only peer"/>
+  <div class="w-12 h-7 bg-gray-400 rounded-full peer-checked:bg-blue-600 transition-colors duration-300"></div>
+  <div class="absolute left-1 top-1 bg-white w-5 h-5 rounded-full shadow-md transition-transform duration-300 peer-checked:translate-x-5"></div>
+</label>
               <div className="...">
                 <input
                   className="accidentalCoverDeath"
